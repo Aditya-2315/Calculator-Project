@@ -81,6 +81,7 @@ function showQuestion(){
 
 function reset(){
     document.querySelector(".nxt-btn").style.display = "none"
+    document.querySelector(".nxt-btn").innerHTML = "Next"
     while(op.firstChild){
         op.removeChild(op.firstChild)
     }
