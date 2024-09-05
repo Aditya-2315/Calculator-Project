@@ -154,3 +154,25 @@ h1:hover::after,p:hover::after{
 .incorrect{
     background-color: orangered;
 }
+
+@media only screen and (max-width: 767px){
+    .container{
+        width: 90%;
+        gap: 25px;
+    }
+    .option{
+        width: 90vw;
+    }
+
+    .options{
+        gap: 25px;
+    }
+
+    h1{
+        font-size:larger;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
